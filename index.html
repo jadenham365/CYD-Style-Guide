@@ -5,6 +5,14 @@
 		<title>Style Guide for Code Your Dreams</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap')
+@font-face {
+    font-family: "GoodTime Grotesk";
+    src: url(GoodTime-Grotesk.otf);
+  }
+@font-face {
+    font-family: "Railey";
+    src: url(Railey.ttf);
+  }
 </style>
 <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script>
 
@@ -24,12 +32,17 @@
     
 	</head>
 	<body>
-		  <div id="spaceMono" style="font-family: Space Mono">Space Mono</div><br>
+		  <div id="spaceMono" style="font-family: Space Mono">Space Mono</div>
+  <br>
   <div id="gradientOne" style="font-family: Space Mono">
-    <button id="grdientOne-linGradAt90" style="background: linear-gradient(90deg,#5660bf 0%,#f388b1 117.27%)">Linear Gradient</button><br>
-    <button id="gradientOne-square#5660bf" style="background: #5660bf">#5660bf</button><br>
+    <button id="grdientOne-linGradAt90" style="background: linear-gradient(90deg,#5660bf 0%,#f388b1 117.27%)">Linear Gradient</button>
+    <br>
+    <button id="gradientOne-square#5660bf" style="background: #5660bf">#5660bf</button>
+    <br>
     <button id="gradientOne-square#f388b1" style="background: #f388b1">#f388b1</button>
   </div>
+  <br>
+  <div id="gtGrotesk" style="font-family: GoodTime Grotesk"> GoodTime Grotesk</div>
   
 <script>
   const gradientOne = getElementById('gradientOne');
