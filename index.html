@@ -7,10 +7,12 @@
     <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script>
 
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap')
+      @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+    
+       @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
         
       @font-face {
-        font-family: "goodtime";
+        font-family: "gtGrotesk";
         src: url(GoodTime-Grotesk.otf) format('opentype');
       }
 
@@ -27,27 +29,25 @@
         border: 1px solid white;
       }
 
-      #grotesk {
-        font-family: goodtime;
-      }
     </style>
 
   </head>
   <body>
-    <div id="spaceMono" style="font-family: Space Mono">Space Mono</div>
+    <div id="spaceMono" style="font-family: Space Mono">SPACE MONO — all caps</div>
     <br>
     <div id="gradientOne" style="font-family: Space Mono">
-      <button id="grdientOne-linGradAt90" style="background: linear-gradient(90deg,#5660bf 0%,#f388b1 117.27%)">Linear Gradient</button>
+      <button id="grdientOne-linGradAt90" style="background: linear-gradient(90deg,#5660bf 0%,#f388b1 117.27%)">LINEAR GRADIENT</button>
       <br>
-      <button id="gradientOne-square#5660bf" style="background: #5660bf">#5660bf</button>
+      <button id="gradientOne-square#5660bf" style="background: #5660bf">#5660BF</button>
       <br>
-      <button id="gradientOne-square#f388b1" style="background: #f388b1">#f388b1</button>
+      <button id="gradientOne-square#f388b1" style="background: #f388b1">#F388B1</button>
     </div>
     <br>
-    <div id="grotesk">GoodTime Grotesk</div>
+    <div id="gtGrotesk" style="font-family: gtGrotesk">GOODTIME GROTESK — all caps</div>
+    <br>
+    <div id="railey" style="font-family: Railey">RAILEY — all caps</div>
+    <br>
+    <div id="poppins" style="font-family: Poppins; font-weight: 700">Poppins — font-weight: 700</div>
 
-    <script>
-      const gradientOne = getElementById('gradientOne');
-    </script>
   </body>
 </html>
